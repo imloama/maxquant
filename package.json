@@ -5,8 +5,7 @@
   "author": "imloama",
   "private": true,
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "big.js": "^5.2.2",
     "ccxt": "1.18.398",
@@ -26,6 +25,7 @@
     "socks-proxy-agent": "^4.0.2",
     "socks5-https-client": "^1.2.1",
     "sqlite3": "^4.0.8",
+    "stellar-sdk": "^3.0.0",
     "talib": "^1.0.6",
     "typeorm": "^0.2.17",
     "zero-fill": "^2.2.3"
