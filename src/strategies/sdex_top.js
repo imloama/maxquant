@@ -1,8 +1,5 @@
 /**
- * stellar grid
- */
-/**
- * 网格
+ * 将自己的单子排成买1卖1价
  * 1. 获取当前盘面
  * 2. 根据当前买单和卖单的价格，进行下单，保证自己是第1位的
  * 3. 每隔3秒钟，下单
@@ -12,7 +9,7 @@
 const API = require('../exchanges/sdex');
 const Big = require('big.js');
 
-class SDEXGrid{
+class SDEXTop{
   constructor(opt = { }){
     this.horizon = opt.horizon || `https://horizon-testnet.stellar.org`
     this.address = opt.apikey
@@ -103,4 +100,4 @@ class SDEXGrid{
 }
 
 
-module.exports = SDEXGrid
+module.exports = SDEXTop
